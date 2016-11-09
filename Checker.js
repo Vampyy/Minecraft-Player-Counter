@@ -1,7 +1,7 @@
 $(document).ready(function () {
       var interval = 12000;   //number of mili seconds between each call
       var refresh = function() {
-      $.getJSON("http://mcapi.ca/query/158.69.22.9:25565/players",function(json){
+      $.getJSON("http://mcapi.ca/query/Server IP here/players",function(json){
             if (json.status !== true) {
               // error
               $("#players").text('Server Offline');
